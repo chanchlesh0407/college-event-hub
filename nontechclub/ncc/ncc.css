@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Satisfy&family=Saira+Stencil+One&display=swap');
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+header {
+    background: white;
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header img {
+    height: 60px;
+}
+nav {
+    display: flex;
+    gap: 20px;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+nav a:hover {
+    background: #ddd;
+    border-radius: 5px;
+}
+h1 {
+    font-family: 'Times', cursive;
+    font-size: 35px;
+    margin-top: 20px;
+    text-align: center;
+}
+h2{
+    font-family:'Saira Stencil One',sans-serif;
+    text-align: center;
+    font-size: 32px;
+}
+p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.mentors-section, .events-section,.about {
+    margin: 50px;
+    text-align: center;
+    background: rgb(211, 208, 208);
+}
+.mentors-section h2, .events-section h2 {
+    font-family: 'Saira Stencil One', sans-serif;
+    font-size: 32px;
+}
+.mentor, .event {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+.mentor img, .event img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    margin: 0 20px;
+}
+.mentor-text, .event-text {
+    max-width: 500px;
+    text-align: left;
+}
+.mentor-text h3, .event-text h3 {
+    font-weight: bold;
+}
+h4{
+    text-align: center;
+}
+.contact-form {
+    margin: 50px auto;
+    max-width: 500px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+.contact-form h2 {
+    text-align: center;
+    font-family: 'Saira Stencil One', sans-serif;
+}
+.contact-form label {
+    font-weight: bold;
+    display: block;
+    margin: 10px 0 5px;
+}
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.contact-form button {
+    width: 100%;
+    padding: 10px;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.footer {
+    background: #333;
+    color: white;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.footer .logo img {
+    height: 60px;
+}
+.footer .social-icons {
+    display: flex;
+    gap: 15px;
+}
+.footer .social-icons img {
+    width: 30px;
+    height: 30px;
+}
+.footer .links {
+    display: flex;
+    gap: 50px;
+}
+.footer .links div {
+    text-align: left;
+}
+.footer .links a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin: 5px 0;
+}
